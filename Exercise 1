@@ -25,5 +25,3 @@ print("\nReshaped Array (3x8):\n", reshaped)
 
 print("\nImplication: Reshaping changes how data is structured without altering values, useful for analysis but can mix original branch-month meaning.")
 ```
-
-Just copy and paste this into your GitHub editor and save!
