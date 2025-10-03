@@ -1,5 +1,4 @@
 
-
 ```python
 routes = [
     "Nairobi", "Nakuru-Eldoret", "Nyeri-Embu",
@@ -25,5 +24,3 @@ print("\nRoutes starting with 'N':", count_N)
 long_routes = [r for r in routes if len(r) > 10]
 print("\nRoutes longer than 10 characters:", long_routes)
 ```
-
-Copy this and paste it in your GitHub file editor, then save/commit. Let me know if you want me to help with the commit message or any other step!
