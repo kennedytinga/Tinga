@@ -1,0 +1,30 @@
+
+```python
+inventory = {
+    "Laptop": 15,
+    "Phone": 8,
+    "Headphones": 25,
+    "Keyboard": 5,
+    "Mouse": 12
+}
+
+print("Initial Inventory:", inventory)
+
+inventory["Monitor"] = 7
+inventory["Phone"] += 5
+
+print("\nUpdated Inventory:", inventory)
+
+def low_stock(inv):
+    return [item for item, qty in inv.items() if qty < 10]
+
+print("\nLow Stock Products:", low_stock(inventory))
+
+del inventory["Keyboard"]
+
+print("\nAfter Deleting 'Keyboard':", inventory)
+
+print("\nFinal Inventory:")
+for product, qty in inventory.items():
+    print(f"{product}: {qty}")
+```
