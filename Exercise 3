@@ -1,0 +1,27 @@
+
+```python
+patient = ("John", 45, "130/85", 70)
+print("Patient Record:", patient)
+
+print("\nAge:", patient[1])
+print("Heart Rate:", patient[3])
+
+print("\nReason: Tuples are immutable, ensuring patient vitals remain tamper-proof and secure.")
+
+patient_list = list(patient)
+patient_list[3] = 75
+patient = tuple(patient_list)
+
+print("\nUpdated Patient Record:", patient)
+
+patients = [
+  ("Alice", 30, "110/70", 68),
+  ("Bob", 55, "135/85", 80),
+  ("Clara", 40, "120/78", 72),
+  ("David", 65, "140/90", 85),
+  ("Eva", 50, "125/82", 76)
+]
+
+names = [p[0] for p in patients]
+print("\nPatient Names:", 
+...
